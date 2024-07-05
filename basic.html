@@ -175,12 +175,26 @@
             <td>12th</td>
             <td>4</td>
         </tr>
-
-<!-- Form tag  to receive the data and sent to server-->
- <!-- methode -get=not secure but post=secured -->
-    <form action="">
-
-    </form>
     </table>
+    
+<!-- Form tag  to receive the data and sent to server-->
+<!-- methode - by default here limitation of get=not secure but post=secured -->
+<form action="#" method="get">
+    <!-- use of get method after vrunning the code see the search bar data will apapre there -->
+            User Name: <input type="text" name="username" id="uid"> 
+            password: <input type="password" name="password" id="pid">
+            <input type="submit" value="ok" name="sub1" id="sub1">
+    
+</form>
+<form action="#" method="post">
+<!-- use of post -->
+            User Name: <input type="text" name="username" id="uid"> 
+            password: <input type="password" name="password" id="pid">
+            <input type="submit" value="ok" name="sub1" id="sub1">
+            <!--  button has three type submit reset plain -->
+</form>   
+
+<!-- multi line textarea -->
+    <textarea name="textarea" cols="24" rows="2" >hello</textarea> 
 </body>
 </html>
