@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: peru;
+        }
+/*class selector*/
+        .h1class{
+            background-color: aqua;
+        }
+/*id selector*/
+        #h2id{
+            background-color: lightseagreen;
+            color: rgb(0, 229, 255);
+        }
+/*universal selector*/
+        *{
+            color: crimson;
+            background-color: burlywood;
+        }
+
+        #button:hover{
+            background-color: blue;
+        }
+
+        #btn2:active{
+            background-color: chocolate;
+        }
+        
+        input:focus{
+            background-color: red;
+        }
+/*2n+1-even
+2n odd
+n for all
+3n+0 for 2 chod k*/
+        p:nth-child(n){
+            background-color: green;
+        }
+
+        a:visited{
+            background-color:azure;
+        }
+
+        #temp::before{
+            content: "before p tag ";
+            /*display: block;*/
+            display: inline;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: aqua;
+        }
+        #temp::after{
+            content: " after p tag";
+        }
+
+
+        #temp22::first-line{
+            background-color: black;
+        }
+
+        a[href^="http"]{
+            background-color: blueviolet;
+        }
+
+        input[type="text"]{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="h1class">tag selector</h1>
+    <h1>TAG SELECTOR</h1>
+    <h2 id="h2id">this is h2</h2>
+    <h2>this is another h2 tag</h2>
+    <h3 class="h3class">h3 tag</h3>
+
+    <div>
+        <h1>1. desendent selector</h1>
+        <h2>hello</h2>
+        <div>
+            <h1>1. desendent selector</h1>
+            <h2>hello</h2>
+            <section>
+                <h1>1. desendent selector</h1>
+                <h2>hello</h2>
+            </section>
+        </div>
+    </div>
+
+    <button id="button">Click here</button>
+    <button id="btn2">Click here</button>
+    <input type="text">
+
+    <a href="##">Random link</a>
+
+    <p>1</p>
+    <p>2</p>
+    <p>3</p>
+    <p>4</p>
+    <p>5</p>
+
+
+    <p id="temp">Welcome to css</p>
+
+    <p id="temp22">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus necessitatibus tenetur similique, quaerat vitae, placeat consequuntur repellendus ab illum harum minima. Enim dolorum minima, commodi vero rerum magni. Eum, quidem?</p>
+
+    <a href="###">Internal links1</a>
+    <a href="https://www.google.com">External links1</a>
+    <a href="###">Internal links2</a>
+    <a href="https://www.youtube.com">External links2</a>
+
+    Name <input type="text">
+    password <input type="password">
+
+</body>
+</html>
