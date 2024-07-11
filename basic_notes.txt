@@ -1,0 +1,45 @@
+css selector
+    css element selector
+    css id selector
+    css class selector
+    css universal selector
+    css group selector(to select tyhe multilpe element)
+
+    selector has 5 types 
+    -simple selector
+        -tag(tag name)
+        -class (.)
+        -id(#)
+        -universal (*)
+
+    -combine selector
+        -descendent selector(div with tag name)
+        -child selector(div with >tag name)
+        -adjacent sibling selector(tag name + tag name)
+        -general sibling selector(tag name ~tag name) 
+
+    -pseudo class selector
+        -hover selector
+        -active selector
+        -focus
+        -nth child
+        -first chil
+        -last child
+        -visited
+
+    -pseudo element selector
+        ::before
+        ::after
+        ::first-line (1st line only)
+        ::first-letter (color only 1st letter)
+
+    -attribute selector  
+------------------------------------------------------------
+
+CSS BOX STYLING-
+    magrin-border-padding-content
+
+------------------------------------------------------------
+
+CSS GRID-
+    
