@@ -2,10 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- used for responsive website -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+<style>
+    /*syntax
+    @media not|only mediatype and (media feature) and (media feature){
+        css-code;
+    }*/
+
+    body{
+        background-color: pink;
+    }
+    @media screen and (min-width: 600px){
+        #leftsidebar{width: 200px; float: left;}
+        body{
+            background-color: lightseagreen;
+        }
+    }
+</style>
 </head>
 <body>
+    <h1>hello Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum illum qui laudantium alias accusantium tempore architecto. Voluptatem aliquid tenetur sed, porro dolorem cum officia nihil sapiente veniam sequi rerum earum.</h1>
     
 </body>
 </html>
