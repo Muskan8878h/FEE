@@ -2,3 +2,13 @@ bootstrap is a free front end framework for faster and easier web devlopment.
 developed by Mark Otto and Jocob Thornton at twitter, and released as an open source product in august 2011 on github.
 CDN - content delivery network
 all css get affected...
+
+
+bootstrap JS components:
+    modal box 
+    dropdown
+    scrollspy
+    tab
+    tooltip
+    popover
+    
