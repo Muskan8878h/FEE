@@ -4,11 +4,5 @@ CDN - content delivery network
 all css get affected...
 
 
-bootstrap JS components:
-    modal box 
-    dropdown
-    scrollspy
-    tab
-    tooltip
-    popover
+bootstrap has 24 components
     
